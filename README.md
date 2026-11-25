@@ -19,6 +19,12 @@ python java2bbmodel.py modelFoo.java -o foo.bbmodel
 
 贴图不打包，在 Blockbench 里自己挂。
 
+## 图形界面
+
+不想敲命令就双击 `run_gui.bat`（等价于 `python java2bbmodel_gui.py`）：选文件或文件夹、确认输出目录、点“开始转换”，转完可以直接打开输出目录。
+
+用的 Tkinter，Python 自带，**不需要编译**，也不用装 PyInstaller 之类的东西。
+
 ## 测试
 
 ```bash
